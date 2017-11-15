@@ -11,15 +11,13 @@ import GoogleMaps
 
 class SampleModel {
 
-    var latitude: CLLocationDegrees
-    var longitude: CLLocationDegrees
+    var routes: [Route]
     var title: String?
     var detail: String?
     var images: [UIImage?]?
     
-    init(latitude: CLLocationDegrees, longitude: CLLocationDegrees) {
-        self.latitude = latitude
-        self.longitude = longitude
+    init(routes: [Route]) {
+        self.routes = routes
     }
     
 }
