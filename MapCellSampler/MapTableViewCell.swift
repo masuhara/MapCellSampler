@@ -11,7 +11,11 @@ import GoogleMaps
 
 class MapTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var imageScrollViewHeightConstraint: NSLayoutConstraint!
+    
     @IBOutlet weak var mapView: GMSMapView!
+    
+    @IBOutlet weak var imageScrollView: UIScrollView!
     
     @IBOutlet weak var titleLabel: UILabel!
     
