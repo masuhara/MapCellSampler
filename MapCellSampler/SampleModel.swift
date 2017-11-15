@@ -15,7 +15,7 @@ class SampleModel {
     var longitude: CLLocationDegrees
     var title: String?
     var detail: String?
-    var image: UIImage?
+    var images: [UIImage?]?
     
     init(latitude: CLLocationDegrees, longitude: CLLocationDegrees) {
         self.latitude = latitude
