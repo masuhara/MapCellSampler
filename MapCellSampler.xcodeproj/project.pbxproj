@@ -18,6 +18,9 @@
 		7AD5D38F1FBC28A700F58F69 /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD5D38D1FBC28A700F58F69 /* MapTableViewCell.swift */; };
 		7AD5D3901FBC28A700F58F69 /* MapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AD5D38E1FBC28A700F58F69 /* MapTableViewCell.xib */; };
 		7AD5D3921FBC2F0B00F58F69 /* SampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD5D3911FBC2F0B00F58F69 /* SampleModel.swift */; };
+		7AD5D39C1FBC3A8500F58F69 /* kanazawa01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AD5D3991FBC3A8400F58F69 /* kanazawa01.jpg */; };
+		7AD5D39D1FBC3A8500F58F69 /* kanazawa02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AD5D39A1FBC3A8400F58F69 /* kanazawa02.jpg */; };
+		7AD5D39E1FBC3A8500F58F69 /* kanazawa03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7AD5D39B1FBC3A8400F58F69 /* kanazawa03.jpg */; };
 		A946C03C0DD4EADFCA418431 /* Pods_MapCellSampler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 670304741CC9A4E2AECF740C /* Pods_MapCellSampler.framework */; };
 		C678699E09995B98DA40F6D8 /* Pods_MapCellSamplerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701D88F10ECBA1328D05F4CB /* Pods_MapCellSamplerUITests.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +63,9 @@
 		7AD5D38D1FBC28A700F58F69 /* MapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTableViewCell.swift; sourceTree = "<group>"; };
 		7AD5D38E1FBC28A700F58F69 /* MapTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapTableViewCell.xib; sourceTree = "<group>"; };
 		7AD5D3911FBC2F0B00F58F69 /* SampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleModel.swift; sourceTree = "<group>"; };
+		7AD5D3991FBC3A8400F58F69 /* kanazawa01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kanazawa01.jpg; sourceTree = "<group>"; };
+		7AD5D39A1FBC3A8400F58F69 /* kanazawa02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kanazawa02.jpg; sourceTree = "<group>"; };
+		7AD5D39B1FBC3A8400F58F69 /* kanazawa03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kanazawa03.jpg; sourceTree = "<group>"; };
 		8C58C71D1F21511ECC489261 /* Pods-MapCellSamplerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapCellSamplerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapCellSamplerTests/Pods-MapCellSamplerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9E4949CBBBADD442A1A62FF1 /* Pods-MapCellSamplerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapCellSamplerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapCellSamplerTests/Pods-MapCellSamplerTests.release.xcconfig"; sourceTree = "<group>"; };
 		B25E5164800479E6F9C97C54 /* Pods-MapCellSampler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapCellSampler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MapCellSampler/Pods-MapCellSampler.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +136,7 @@
 		7AD5D35E1FBC284A00F58F69 /* MapCellSampler */ = {
 			isa = PBXGroup;
 			children = (
+				7AD5D3981FBC3A6C00F58F69 /* Images */,
 				7AD5D3911FBC2F0B00F58F69 /* SampleModel.swift */,
 				7AD5D35F1FBC284A00F58F69 /* AppDelegate.swift */,
 				7AD5D3611FBC284A00F58F69 /* ViewController.swift */,
@@ -159,6 +166,16 @@
 				7AD5D3811FBC284A00F58F69 /* Info.plist */,
 			);
 			path = MapCellSamplerUITests;
+			sourceTree = "<group>";
+		};
+		7AD5D3981FBC3A6C00F58F69 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7AD5D3991FBC3A8400F58F69 /* kanazawa01.jpg */,
+				7AD5D39A1FBC3A8400F58F69 /* kanazawa02.jpg */,
+				7AD5D39B1FBC3A8400F58F69 /* kanazawa03.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		C808E995EC0C592EE83F990E /* Pods */ = {
@@ -290,8 +307,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AD5D39E1FBC3A8500F58F69 /* kanazawa03.jpg in Resources */,
+				7AD5D39C1FBC3A8500F58F69 /* kanazawa01.jpg in Resources */,
 				7AD5D36A1FBC284A00F58F69 /* LaunchScreen.storyboard in Resources */,
 				7AD5D3671FBC284A00F58F69 /* Assets.xcassets in Resources */,
+				7AD5D39D1FBC3A8500F58F69 /* kanazawa02.jpg in Resources */,
 				7AD5D3901FBC28A700F58F69 /* MapTableViewCell.xib in Resources */,
 				7AD5D3651FBC284A00F58F69 /* Main.storyboard in Resources */,
 			);
