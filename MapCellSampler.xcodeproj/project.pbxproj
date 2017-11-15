@@ -14,6 +14,8 @@
 		7AD5D36A1FBC284A00F58F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AD5D3681FBC284A00F58F69 /* LaunchScreen.storyboard */; };
 		7AD5D3751FBC284A00F58F69 /* MapCellSamplerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD5D3741FBC284A00F58F69 /* MapCellSamplerTests.swift */; };
 		7AD5D3801FBC284A00F58F69 /* MapCellSamplerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD5D37F1FBC284A00F58F69 /* MapCellSamplerUITests.swift */; };
+		7AD5D38F1FBC28A700F58F69 /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD5D38D1FBC28A700F58F69 /* MapTableViewCell.swift */; };
+		7AD5D3901FBC28A700F58F69 /* MapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AD5D38E1FBC28A700F58F69 /* MapTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7AD5D37B1FBC284A00F58F69 /* MapCellSamplerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapCellSamplerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD5D37F1FBC284A00F58F69 /* MapCellSamplerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapCellSamplerUITests.swift; sourceTree = "<group>"; };
 		7AD5D3811FBC284A00F58F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AD5D38D1FBC28A700F58F69 /* MapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTableViewCell.swift; sourceTree = "<group>"; };
+		7AD5D38E1FBC28A700F58F69 /* MapTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				7AD5D35F1FBC284A00F58F69 /* AppDelegate.swift */,
 				7AD5D3611FBC284A00F58F69 /* ViewController.swift */,
 				7AD5D3631FBC284A00F58F69 /* Main.storyboard */,
+				7AD5D38D1FBC28A700F58F69 /* MapTableViewCell.swift */,
+				7AD5D38E1FBC28A700F58F69 /* MapTableViewCell.xib */,
 				7AD5D3661FBC284A00F58F69 /* Assets.xcassets */,
 				7AD5D3681FBC284A00F58F69 /* LaunchScreen.storyboard */,
 				7AD5D36B1FBC284A00F58F69 /* Info.plist */,
@@ -234,6 +240,7 @@
 			files = (
 				7AD5D36A1FBC284A00F58F69 /* LaunchScreen.storyboard in Resources */,
 				7AD5D3671FBC284A00F58F69 /* Assets.xcassets in Resources */,
+				7AD5D3901FBC28A700F58F69 /* MapTableViewCell.xib in Resources */,
 				7AD5D3651FBC284A00F58F69 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 			files = (
 				7AD5D3621FBC284A00F58F69 /* ViewController.swift in Sources */,
 				7AD5D3601FBC284A00F58F69 /* AppDelegate.swift in Sources */,
+				7AD5D38F1FBC28A700F58F69 /* MapTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,11 +437,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 939YVKTKUP;
 				INFOPLIST_FILE = MapCellSampler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ylab.MapCellSampler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,11 +453,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 939YVKTKUP;
 				INFOPLIST_FILE = MapCellSampler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ylab.MapCellSampler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
