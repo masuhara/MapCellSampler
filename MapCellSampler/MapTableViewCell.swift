@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import GoogleMaps
 
 class MapTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var mapView: GMSMapView!
+    
+    @IBOutlet weak var titleLabel: UILabel!
+    
+    @IBOutlet weak var detailLabel: UILabel!
+
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        mapView.settings.setAllGesturesEnabled(false)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

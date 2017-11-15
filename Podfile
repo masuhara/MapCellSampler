@@ -7,6 +7,8 @@ target 'MapCellSampler' do
 
   # Pods for MapCellSampler
 
+pod 'GoogleMaps'
+
   target 'MapCellSamplerTests' do
     inherit! :search_paths
     # Pods for testing

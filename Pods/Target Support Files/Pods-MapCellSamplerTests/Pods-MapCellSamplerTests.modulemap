@@ -1,0 +1,6 @@
+framework module Pods_MapCellSamplerTests {
+  umbrella header "Pods-MapCellSamplerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
